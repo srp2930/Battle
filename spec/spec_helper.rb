@@ -8,7 +8,8 @@ require 'capybara'
 require 'capybara/rspec'
 #require 'capybara/rails'
 require 'rspec'
-#require 'web_helpers'
+
+require_relative 'features/web_helpers'
 
 Capybara.app = Battle
 
